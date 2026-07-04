@@ -31,7 +31,7 @@ sp = spotipy.Spotify(
     )
 )
 
-# Thread-safe global cache / İş parçacığı güvenli global önbellek
+
 _lock = threading.Lock()
 _cached = {
     "track": "---",
